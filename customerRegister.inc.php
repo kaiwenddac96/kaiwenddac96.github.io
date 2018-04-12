@@ -31,7 +31,7 @@
         } else {
         
         //insert customer data
-        $sql = "INSERT INTO `customer` (`customer_name`, `item_description`, `item_weight`, `agent`, `schedule_id`, `status`) VALUES ('$register_customer_name', '$register_item_desciption', '$register_item_weight', '$agent_name', '$selectedID', 0)";
+        $sql = "INSERT INTO `customer` (`customer_name`, `item_description`, `item_weight`, `agent`, `schedule_id`, `status`) VALUES ('$register_customer_name', '$register_item_desciption', '$register_item_weight', '$agent_name', '$selectedID', '0')";
         mysqli_query($dbConn, $sql);
         
         
