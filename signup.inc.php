@@ -4,7 +4,7 @@
     if (isset($_POST['signupsubmitButton'])) {
         
         $signup_username = mysqli_real_escape_string($dbConn, $_POST['signup_username']);
-        $signup_password = mysqli_real_escape_string($dbConn, $_POST['signup_passsword']);
+        $signup_password = mysqli_real_escape_string($dbConn, $_POST['signup_password']);
         $signup_name = mysqli_real_escape_string($dbConn, $_POST['signup_name']);
         
         // check if any column is empty
