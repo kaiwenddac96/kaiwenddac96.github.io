@@ -1,9 +1,9 @@
 <?php
 
-$dbUser = "root";
-$dbPass = "";
-$dbDatabase = "ddac_db";
-$dbHost = "localhost";
+$dbUser = "mysqldbuser@webapp-mysqldbserver-6a3bc061-21597";
+$dbPass = "52145214aA1";
+$dbDatabase = "mysqldatabase21597";
+$dbHost = "webapp-mysqldbserver-6a3bc061-21597.mysql.database.azure.com";
 
 $dbConn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbDatabase);
 
